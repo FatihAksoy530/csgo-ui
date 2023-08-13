@@ -1,0 +1,67 @@
+#spinner-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr 1fr;
+    grid-area: spinner;
+    padding: 0.7em 1em;
+    border-radius: 1.5em;
+    background-color: #000;
+    gap: 3em;
+}
+
+
+#items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#items > div {
+    border-bottom: none;
+    border-top: none;
+    padding-inline: 0.5em;
+}
+
+#player-versus {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    place-items: center;
+}
+
+
+.player-1, .player-2 {
+    padding: 1em;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.vs {
+    color: white;
+    font-weight: 600;
+}
+
+.total-value {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 0.5em;
+}
+
+.money {
+    background: #FFD500;
+    background: linear-gradient(to bottom, #FFD500 0%, #FF7700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.text {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}

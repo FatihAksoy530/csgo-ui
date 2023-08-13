@@ -1,0 +1,23 @@
+body {
+    background-image: url("background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-layout-container {
+    display: grid;
+    grid-template-areas: 
+    "spinner spinner"
+    "rarity-scaler ."
+    "status ."
+    "deposit-info ."
+    "earnings ."
+    "reward ."
+    "payment ."
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:4fr 2fr 1fr 7fr 3.5fr 2.5fr 11fr;
+    grid-gap: 1rem;
+    height: 100vh;
+    margin: 60px;
+}
