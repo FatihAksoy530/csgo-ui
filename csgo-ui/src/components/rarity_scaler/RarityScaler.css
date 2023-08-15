@@ -1,0 +1,57 @@
+:root {
+    --rare: linear-gradient(90deg, rgba(244,0,252,1) 23%, rgba(248,48,255,1) 48%, rgba(244,0,252,1) 78%);
+    --unusual: linear-gradient(90deg, rgba(255,212,60,1) 18%, rgba(255,237,93,1) 52%, rgba(255,194,36,1) 84%);
+    --common: linear-gradient(90deg, rgba(26,170,213,1) 17%, rgba(67,190,227,1) 50%, rgba(26,170,213,1) 82%);
+    --uncommon: linear-gradient(90deg, rgba(224,28,28,1) 12%, rgba(255,71,71,1) 45%, rgba(224,28,28,1) 81%);
+    --rarity-scaler-border-radius: 1em;
+}
+
+.rarity-scaler {
+    display: grid;
+    grid-template-columns: 3fr 1fr 6fr 4fr;
+    position: relative;
+}
+
+.unusual {
+    background: var(--unusual);
+    border-top-left-radius: var(--rarity-scaler-border-radius);
+    border-bottom-left-radius: var(--rarity-scaler-border-radius);
+}
+
+.rare {
+    background: var(--rare);
+}
+
+.common {
+    background: var(--common);
+}
+
+.uncommon {
+    background: var(--uncommon);
+    border-top-right-radius: var(--rarity-scaler-border-radius);
+    border-bottom-right-radius: var(--rarity-scaler-border-radius);
+}
+
+.rarity-scaler::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent #b8ffff transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+}
+
+.rarity-scaler::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #b8ffff transparent transparent transparent;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+}
