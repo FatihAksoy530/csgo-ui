@@ -9,7 +9,7 @@ body {
     grid-template-areas: 
     "spinner spinner"
     "rarity-scaler ."
-    "status ."
+    "status-bar ."
     "deposit-info ."
     "earnings ."
     "reward ."

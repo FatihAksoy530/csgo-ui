@@ -1,0 +1,34 @@
+:root {
+    --status-bar-cell-border-color: rgb(48, 48, 48);
+}
+
+.status-bar-cell-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.5rem;
+    border-right: 1px solid var(--status-bar-cell-border-color);
+    padding: 0.5rem 1rem;
+}
+
+.status-bar-cell-container:last-child {
+    border-right: none;
+}
+
+.status-bar-cell-container svg {
+    fill: linear-gradient(to bottom, #FFD500 0%, #FF7700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.status-bar-mid-text {
+    font-weight: 600;
+}
+
+.status-bar-end-text {
+    background: #FFD500;
+    background: linear-gradient(to bottom, #FFD500 0%, #FF7700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
