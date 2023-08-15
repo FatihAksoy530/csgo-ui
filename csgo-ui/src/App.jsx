@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import Spinner from './components/spinner/Spinner';
 import RarityScaler from './components/rarity_scaler/RarityScaler';
 import SatatusBar from './components/status_bar/StatusBar';
+import DepositBar from './components/deposit_bar/DepositBar';
 
 import './assets/css/global.css'
 import './assets/css/css_reset.css'
@@ -15,6 +15,7 @@ function App() {
         <Spinner/>
         <RarityScaler />
         <SatatusBar />
+        <DepositBar />
       </div>
     </>
   )

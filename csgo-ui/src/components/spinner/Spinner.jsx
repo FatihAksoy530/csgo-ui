@@ -7,26 +7,26 @@ export default function Spinner() {
     const [items, setItems] = useState([
         {
             id: 1,
-            image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/AK-47%20Nightwish_hudd803c2318e740e6f9c5549131b31111_170495_675x0_resize_q100_h2_lanczos.webp",
+            image_url: "./ak-47.webp",
             name: "AK-47 | Redline",
             price: 10.00
         },
         {
             id: 2,
-            image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/Desert%20Eagle%20Ocean%20Drive_hudd803c2318e740e6f9c5549131b31111_247221_675x0_resize_q100_h2_lanczos.webp",
-            name: "AK-47 | Redline",
+            image_url: "./desert-eagle.webp",
+            name: "Desert Eagle | Blaze",
             price: 10.00
         },
         {
             id: 3,
-            image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/P250%20Visions_hu957518b28da29b822be6dab4e505d7ca_281010_675x0_resize_q100_h2_lanczos.webp",
-            name: "AK-47 | Redline",
+            image_url: "./karambit.webp",
+            name: "Karambit | Lore",
             price: 10.00
         },
         {
             id: 4,
-            image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/Karambit%20Doppler%20%28Sapphire%29_hud3d580b9905286d5392915c49c15b176_130701_675x0_resize_q100_h2_lanczos.webp",
-            name: "AK-47 | Redline",
+            image_url: "./p250.webp",
+            name: "P250 | Asiimov",
             price: 10.00
         },
         // {
