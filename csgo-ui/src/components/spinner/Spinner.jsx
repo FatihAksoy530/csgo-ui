@@ -29,18 +29,6 @@ export default function Spinner() {
             name: "P250 | Asiimov",
             price: 10.00
         },
-        // {
-        //     id: 5,
-        //     image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/M4A1-S%20Hyper%20Beast_hu957518b28da29b822be6dab4e505d7ca_112250_675x0_resize_q100_h2_lanczos.webp",
-        //     name: "AK-47 | Redline",
-        //     price: 10.00
-        // },
-        // {
-        //     id: 6,
-        //     image_url: "https://dmarket.com/blog/most-beautiful-csgo-skins/Falchion%20Doppler%20%28Ruby%29_hud3d580b9905286d5392915c49c15b176_108014_675x0_resize_q100_h2_lanczos.webp",
-        //     name: "AK-47 | Redline",
-        //     price: 10.00
-        // }
     ])
 
     return (

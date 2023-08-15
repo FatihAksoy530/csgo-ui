@@ -2,6 +2,7 @@ import Spinner from './components/spinner/Spinner';
 import RarityScaler from './components/rarity_scaler/RarityScaler';
 import SatatusBar from './components/status_bar/StatusBar';
 import DepositBar from './components/deposit_bar/DepositBar';
+import Earnings from './components/earnings/Earnings';
 
 import './assets/css/global.css'
 import './assets/css/css_reset.css'
@@ -16,6 +17,7 @@ function App() {
         <RarityScaler />
         <SatatusBar />
         <DepositBar />
+        <Earnings />
       </div>
     </>
   )

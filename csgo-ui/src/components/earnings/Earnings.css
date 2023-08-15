@@ -1,0 +1,82 @@
+:root {
+    --faded-black: #1a1a1a;
+    --available-earnings-gradient: linear-gradient(0deg, rgba(145,78,0,1) 28%, rgba(40,40,40,1) 91%);
+    --faded-orange: #914e00;
+    --light-orange: #ff9e00;
+}
+
+#earnings-container {
+    grid-area: earnings;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1em;
+    color: white;
+}
+
+.total-earnings, .available-earnings {
+    padding: 1rem;
+}
+
+.total-earnings {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: var(--faded-black);
+    border-radius: 1em;
+    gap: 1em;
+    align-items: center;
+}
+
+.available-earnings {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background: var(--available-earnings-gradient);
+    border-radius: 1em;
+    gap: 1em;
+    align-items: center;
+}
+
+.coins {
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+.total-earnings-right-container {
+    display: grid;
+}
+
+.total-earnings-in-dollars {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.total-earnings-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #b3b3b3;
+}
+
+.case {
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+.claim-btn {
+    padding: 1em 2em;
+    background: var(--available-earnings-gradient);
+    border-radius: 1em;
+    border: 1px solid var(--light-orange);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.single-coin {
+    max-height: 15px;
+    width: auto;
+}
