@@ -81,6 +81,7 @@
     grid-gap: 0.5em;
     padding: 0.5em;
     font-size: 1.4em;
+    align-items: center;
 }
 
 .money-amount {
@@ -112,4 +113,14 @@
 
 .btc svg {
     transform: scale(1.5);
+}
+
+@media (max-width:1000px) {
+    .wallet-number {
+        font-size: 1em;
+    }
+
+    #player-versus {
+        gap: 0.5em;
+    }
 }

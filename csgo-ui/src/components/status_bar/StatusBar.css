@@ -15,3 +15,9 @@
 #status-bar-container > div.items {
     border-right: none;
 }
+
+@media (max-width:1000px) {
+    #status-bar-container {
+        grid-template-columns: 1fr;
+    }
+}

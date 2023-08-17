@@ -47,12 +47,12 @@
 }
 
 .total-earnings-in-dollars {
-    font-size: 1.3rem;
+    font-size: 1.3em;
     font-weight: 600;
 }
 
 .total-earnings-text {
-    font-size: 0.8rem;
+    font-size: 0.8em;
     font-weight: 600;
     color: #b3b3b3;
 }
@@ -83,4 +83,10 @@
 
 .claim-earnings {
     font-weight: 600;
+}
+
+@media (max-width:1000px) {
+    #earnings-container {
+        grid-template-columns: 1fr;
+    }
 }

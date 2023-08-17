@@ -40,3 +40,9 @@
     grid-template-rows: 1fr 1fr;
     gap: 1em;
 }
+
+@media (max-width:1000px) {
+    .payment-methods {
+        grid-template-columns: 1fr;
+    }
+}
