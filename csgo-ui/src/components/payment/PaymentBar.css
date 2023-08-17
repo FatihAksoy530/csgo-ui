@@ -1,0 +1,42 @@
+:root {
+    --payment-container-background: linear-gradient(0deg, rgba(0,0,0,0.7791491596638656) 0%, rgba(0,0,0,1) 100%);
+}
+
+.payment-container {
+    display: grid;
+    grid-area: payment;
+    background: var(--payment-container-background);
+    color: white;
+    grid-template-rows: auto 1fr;
+    padding: 1.5em;
+    border-radius: 1em;
+    gap: 2em;
+}
+
+.payment-container-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1em;
+    align-items: center;
+}
+
+.payment-container-header h3 {
+    font-size: 1.3em;
+}
+
+.payment-container-content h2 {
+    font-size: 1.5em;
+}
+
+.payment-container-content {
+    display: grid;
+    gap: 1em;
+    grid-template-rows: auto auto 1fr;
+}
+
+.payment-methods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}

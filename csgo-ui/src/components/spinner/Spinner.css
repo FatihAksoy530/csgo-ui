@@ -31,7 +31,6 @@
 
 
 .player-1, .player-2 {
-    padding: 1em;
 }
 
 .profile-picture {
@@ -39,6 +38,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+    max-height: 150px;
 }
 
 .vs {

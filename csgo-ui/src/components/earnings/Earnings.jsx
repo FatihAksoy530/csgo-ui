@@ -23,7 +23,7 @@ export default function Earnings() {
                     </div>
                     <button className="claim-btn">
                         <img className="single-coin" src="./single-coin.png" alt="" />
-                        <span>Claim Earnings</span>
+                        <span className="claim-earnings">Claim Earnings</span>
                     </button>
                 </div>
             </div>

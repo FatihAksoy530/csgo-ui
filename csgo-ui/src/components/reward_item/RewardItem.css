@@ -1,0 +1,44 @@
+:root {
+    --reward-background-color: #1b1c1d;
+    --reward-claim-btn-background: linear-gradient(0deg, rgba(0,99,38,1) 0%, rgba(40,40,40,1) 100%);
+}
+
+.reward-item-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: var(--reward-background-color);
+    color: white;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.reward-item-left-side {
+    display: grid;
+    align-items: center;
+    border-radius: 1.5em;
+}
+
+.reward-item-right-side {
+    display: grid;
+    align-items: center;
+}
+
+.reward-item-header {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.reward-claim-btn {
+    padding: 1em 3em;
+    border-radius: 1em;
+    font-weight: 600;
+    background: var(--reward-claim-btn-background);
+    border: 2px solid #11ff00;
+    color: white;
+}
+
+.reward-item-text {
+    color: rgb(133, 133, 133);
+    font-weight: 600;
+    font-size: 0.8em;
+}

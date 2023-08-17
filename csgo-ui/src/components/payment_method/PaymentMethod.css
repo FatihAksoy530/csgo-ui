@@ -1,0 +1,49 @@
+.payment-method-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+    align-items: center;
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.payment-method-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 75px;
+}
+
+.payment-method-right {
+    display: grid;
+    gap: 1em;
+}
+
+.payment-method-header {
+    font-weight: 600;
+}
+
+.payment-container-content > p {
+    color: rgb(168, 168, 168);
+    font-weight: 600;
+}
+
+.add-button {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    border: none;
+}
+
+.close-button {
+    border: none;
+    background-color: transparent;
+    background-color: rgb(32, 32, 32);
+    color: rgb(105, 105, 105);
+    font-weight: 600;
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
